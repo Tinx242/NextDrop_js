@@ -600,3 +600,230 @@
       }
     }
   }
+
+  /* Responsive - Tablette */
+    @media (max-width: 1024px) {
+      .navbar__logo h1 {
+        font-size: 1.2rem;
+      }
+
+      .platform-title {
+        font-size: 1.6rem;
+        margin: 30px 20px;
+      }
+
+      .barrecherche {
+        width: 85%;
+      }
+
+      main section ul {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 25px;
+      }
+
+      .modal-content {
+        padding: 30px;
+        gap: 25px;
+      }
+
+      #modal-title {
+        font-size: 1rem;
+      }
+
+      #modal-desc {
+        font-size: 0.45rem;
+      }
+    }
+
+    /* Responsive - Mobile */
+    @media (max-width: 768px) {
+      .navbar {
+        padding: 15px;
+      }
+
+      .navbar__logo h1 {
+        font-size: 0.9rem;
+      }
+
+      .navbar__links {
+        display: none;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 70px);
+        background: rgba(10, 14, 39, 0.98);
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 25px;
+        z-index: 999;
+        overflow-y: auto;
+      }
+
+      .show-nav .navbar__links {
+        display: flex;
+      }
+
+      .navbar__link a {
+        font-size: 0.6rem;
+        padding: 12px 20px;
+        width: 100%;
+        text-align: center;
+        display: block;
+      }
+
+      .burger {
+        display: flex;
+      }
+
+      .show-nav .bar:nth-child(1) {
+        transform: rotate(45deg) translate(8px, 8px);
+      }
+
+      .show-nav .bar:nth-child(2) {
+        opacity: 0;
+      }
+
+      .show-nav .bar:nth-child(3) {
+        transform: rotate(-45deg) translate(8px, -8px);
+      }
+
+      .platform-title {
+        font-size: 1rem;
+        margin: 25px 15px;
+        line-height: 1.4;
+      }
+
+      .barrecherche {
+        width: 90%;
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .barrecherche input,
+      .barrecherche button {
+        font-size: 0.5rem;
+        padding: 12px;
+      }
+
+      main {
+        width: 95%;
+        margin: 30px auto;
+      }
+
+      main section ul {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+
+      .jeu {
+        padding: 12px;
+      }
+
+      .project-img {
+        height: 180px;
+      }
+
+      figcaption h3 {
+        font-size: 0.6rem;
+      }
+
+      figcaption time {
+        font-size: 0.45rem;
+      }
+
+      .modal-content {
+        flex-direction: column;
+        padding: 20px;
+        max-width: 95vw;
+        gap: 20px;
+      }
+
+      .modal-close {
+        top: 10px;
+        right: 15px;
+        font-size: 1.5rem;
+      }
+
+      #modal-img {
+        max-width: 100%;
+      }
+
+      #modal-title {
+        font-size: 0.8rem;
+        margin-bottom: 15px;
+      }
+
+      #modal-desc {
+        font-size: 0.4rem;
+        line-height: 1.6;
+        margin-bottom: 20px;
+      }
+
+      #modal-tech img {
+        width: 40px;
+        height: 40px;
+      }
+
+      footer {
+        flex-direction: column;
+        gap: 20px;
+        padding: 25px 15px;
+        font-size: 0.45rem;
+      }
+
+      .social-links {
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+      }
+
+      .social-links img {
+        width: 25px;
+        height: 25px;
+      }
+
+      .no-result {
+        padding: 30px 15px;
+        font-size: 0.6rem;
+      }
+    }
+
+    /* Responsive - Petit mobile */
+    @media (max-width: 480px) {
+      .navbar__logo h1 {
+        font-size: 0.7rem;
+      }
+
+      .platform-title {
+        font-size: 0.8rem;
+      }
+
+      .barrecherche input,
+      .barrecherche button {
+        font-size: 0.45rem;
+        padding: 10px;
+      }
+
+      .project-img {
+        height: 150px;
+      }
+
+      figcaption h3 {
+        font-size: 0.5rem;
+      }
+
+      #modal-title {
+        font-size: 0.7rem;
+      }
+
+      #modal-desc {
+        font-size: 0.35rem;
+      }
+
+      footer {
+        font-size: 0.4rem;
+        padding: 20px 10px;
+      }
+    }
+  

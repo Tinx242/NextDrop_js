@@ -14,7 +14,7 @@ Inspiré d’un univers néon cyberpunk, il combine une interface fluide, des an
 
 Ce projet est né de la passion pour le design futuriste, la culture gaming, et l’envie de créer un outil simple mais visuellement marquant.
 
-Visitez le site ici : [NextDrop]( ) 🌐
+Visitez le site ici : [NextDrop]( https://tinx242.github.io/NextDrop_js/) 🌐
 
 
 ## 📞 CONTACT
